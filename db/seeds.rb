@@ -12,7 +12,7 @@ Card.destroy_all
 Color.destroy_all
 CardColor.destroy_all
 
-data_hash = JSON.parse(File.read('./lib/scryfall.json'))
+data_hash = JSON.parse(File.read('./lib/scryfalltest.json'))
 
 Color.create(name: 'White', abbreviation: 'W')
 Color.create(name: 'Blue', abbreviation: 'U')

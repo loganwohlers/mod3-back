@@ -13,11 +13,6 @@ end
 
 
 
-
-
-
-
-
 # fetch(SCRYFALL)
 # .then(response=>response.json())
 # .then(json=>{
