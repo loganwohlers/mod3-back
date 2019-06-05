@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_15_224032) do
+ActiveRecord::Schema.define(version: 2019_06_05_025142) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -43,8 +43,6 @@ ActiveRecord::Schema.define(version: 2019_04_15_224032) do
     t.string "flavor_text"
     t.string "type_line"
     t.integer "card_set_id"
-    t.string "artist_name"
-    t.string "set_name"
     t.integer "likes"
   end
 

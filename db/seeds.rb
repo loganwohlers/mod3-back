@@ -34,8 +34,6 @@ data_hash.each do |card|
                flavor_text: card['flavor_text'],
                type_line: card['type_line'],
                card_set_id: cs.id,
-               artist_name: aa.name,
-               set_name: cs.name,
                likes: 0
           )
           if(card['type_line'].include?("Land"))
